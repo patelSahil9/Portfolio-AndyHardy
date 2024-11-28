@@ -7,7 +7,8 @@ function App() {
   const andyRef = useRef(null);
 
   useEffect(() => {
-    console.log(andyRef.current); // Ensure this logs the correct element
+    console.log(andyRef.current); 
+    
     let tl = gsap.timeline();
     tl.fromTo(
       andyRef.current,
@@ -52,7 +53,7 @@ function App() {
               <p>Portfolio →</p>
             </div>
           </div>
-          <div className="grid-item">
+          <div className="grid-item1">
             <img src="https://andyhardy.co/media/pages/home/9c0cca0f68-1683607198/felan-bg-560x800-crop.jpg" alt="Mail List" />
             <div className="grid-overlay">
               <h3>emble</h3>
@@ -66,7 +67,7 @@ function App() {
               <p>Education →</p>
             </div>
           </div>
-          <div className="grid-item">
+          <div className="grid-item1">
             <img src="https://andyhardy.co/media/pages/home/50843ba13c-1683607198/presets-bg-560x800-crop.jpg" alt="Presets"
             />
             <div className="grid-overlay">

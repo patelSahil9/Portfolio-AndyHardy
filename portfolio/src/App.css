@@ -69,18 +69,39 @@ body {
   
 
 .grid-section {
+  position: relative;
+  /* margin: 10%; */
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 50px 20px;
+  padding: 4%;
   background-color: #000;
 }
 
+
+.grid-item1 {
+  position: relative;
+  width: 20%;
+  height: 60%;
+  margin: 2%;
+  overflow: hidden;
+  /* border-radius: 10px; */
+  transition: transform 0.3s;
+}
+
+.grid-item1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* transition: transform 0.3s; */
+}
 .grid-item {
   position: relative;
-  width: 300px;
-  height: 400px;
-  margin: 20px;
+  width: 20%;
+  height: 60%;
+  margin-top: 10%;
   overflow: hidden;
   /* border-radius: 10px; */
   transition: transform 0.3s;
@@ -90,12 +111,11 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s;
+  /* transition: transform 0.3s; */
 }
-
-.grid-item:hover img {
+/* .grid-item:hover img {
   transform: scale(1.15);
-}
+} */
 
 .grid-overlay {
   position: absolute;
@@ -114,6 +134,9 @@ body {
 }
 
 .grid-item:hover .grid-overlay {
+  opacity: 1;
+}
+.grid-item1:hover .grid-overlay {
   opacity: 1;
 }
 
