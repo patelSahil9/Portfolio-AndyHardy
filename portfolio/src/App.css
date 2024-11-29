@@ -69,15 +69,16 @@ body {
   
 
 .grid-section {
-  position: relative;
-  /* margin: 10%; */
+  display: flex; /* Use flexbox for easy alignment */
+  justify-content: center; 
+  gap: -1%; /* Small gaps between grid items */
+  padding: 2%; /* Space around the grid */
+  background-color: #000;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 4%;
-  background-color: #000;
+ 
 }
 
 
@@ -86,6 +87,7 @@ body {
   width: 20%;
   height: 60%;
   margin: 2%;
+  /* margin-left: 5%; */
   overflow: hidden;
   /* border-radius: 10px; */
   transition: transform 0.3s;
@@ -103,6 +105,8 @@ body {
   height: 60%;
   margin-top: 10%;
   overflow: hidden;
+  /* margin-right: 2%; */
+  
   /* border-radius: 10px; */
   transition: transform 0.3s;
 }

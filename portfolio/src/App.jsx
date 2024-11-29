@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import { gsap } from "gsap";
+import img from "./assets/emble.png";
 
 function App() {
   const andyRef = useRef(null);
@@ -43,8 +44,6 @@ function App() {
           </div>
         </div>
 
-
-
         <div className="grid-section">
           <div className="grid-item">
             <img src="https://andyhardy.co/media/pages/home/85d01c4049-1683607197/andy-bg-560x800-crop.jpg" alt="Portfolio" />
@@ -56,7 +55,7 @@ function App() {
           <div className="grid-item1">
             <img src="https://andyhardy.co/media/pages/home/9c0cca0f68-1683607198/felan-bg-560x800-crop.jpg" alt="Mail List" />
             <div className="grid-overlay">
-              <h3>emble</h3>
+              <img src={img} alt="emble" />
               <p>Mail List →</p>
             </div>
           </div>
