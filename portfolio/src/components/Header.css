@@ -26,14 +26,27 @@
     color: black;
 }
 
+.menu-icon:hover {
+    scale: 1;
+    transition: all 0.4s ease-in-out;
+    background: rgb(54, 53, 55);
+    color: white;
+}
+
 
 .get-in-touch-btn {
     background: white;
     color: black;
-    /* border: blueviolet; */
-    padding: 12px 22px;
-    border-radius: 25px;
+    border: blueviolet; 
+    padding: 15px 31px;
+    border-radius: 85px;
     cursor: pointer;
     font-size: 1rem;
     font-weight: 300;
+}
+.get-in-touch-btn:hover {
+    scale: 1;
+    transition: all 0.4s ease-in-out;
+    background: rgb(54, 53, 55);
+    color: white;
 }
