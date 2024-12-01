@@ -129,7 +129,7 @@ body {
   position: relative;
   width: 19%;
   height: 60%;
-  margin-top: 10%;
+  margin-top: 6%;
   overflow: hidden;
   transition: transform 0.3s;
 }
@@ -156,8 +156,8 @@ body {
   opacity: 1;
 }
 
-.grid-item:hover .grid-overlay,
-.grid-item1:hover .grid-overlay {
+.grid-item,
+.grid-item1 {
   background: linear-gradient(
     to top,
     black 0%,
@@ -178,8 +178,7 @@ body {
   
   opacity: 1;
 }
-.grid-item img:hover,
-.grid-item1 img:hover {
+.grid-icon:hover {
   transform: scale(1.1);
 }
 
